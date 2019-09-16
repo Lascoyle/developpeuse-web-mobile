@@ -1,0 +1,621 @@
+/*Nettoyage de la page*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+/*Définition de la police générale de la page et des titres*/
+html
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+	font-family: 'Megrim', cursive;
+	font-size: 3.5em;
+	color: whitesmoke;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-top: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+	background:  rgba(8, 7, 7, 0.8);
+}
+
+
+h2
+{
+	font-family: 'Megrim', cursive;
+	font-weight: bold;
+	font-size: 2em;
+	color: white;
+	padding-top: 10vh;
+	padding-bottom: 2vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 10px 10px 10px rgba(24, 24, 24, 0.459);
+
+}
+
+h1, h2, h3, h4, h5
+{
+	text-align: center;
+	text-transform: uppercase; 
+}
+
+h3
+{
+	font-family: 'Megrim', cursive;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(245, 245, 245);
+	margin-top: 20vh;
+	margin-bottom: 50px;
+	font-weight: bold;
+	border-top: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+	padding: 30px; 
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+h4
+{	
+	font-family: 'Megrim', cursive;
+	font-weight: bold;
+	background-color: rgba(250, 250, 250, 0.1);
+	font-size: 2.5em;
+	color: rgba(36, 30, 30);
+	text-align: center;
+	margin-bottom: 40px;
+	border-top: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h5
+{	
+	font-family: 'Megrim', cursive;
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: whitesmoke;
+	text-align: center;
+	border-top: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.skills_title
+{
+	border: none;
+	background: none;
+}
+
+
+/*Mise en place de l'arrière plan et de l'en-tête*/
+body
+{
+	background: black;
+	background-size: cover;
+}
+
+.banner
+{
+	width: 100%;
+	height: 400px;
+	padding-top: 30px;
+}
+
+.blur
+{
+	padding-bottom: 20px;
+	background-image: url(img/hands_cpu3.jpg);
+}
+
+
+.descriptif
+{
+	font-family: 'Megrim', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: whitesmoke;
+	margin-bottom: 80px;
+	margin-top: 40px;
+	padding: 3vh;
+	padding-top: 1vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 10px 10px 10px rgba(24, 24, 24, 0.459);
+}
+
+/*Définition de la navbar*/
+.navbar
+{
+    position: absolute;
+	width: 100%;
+	background-color: rgb(15, 15, 15);
+}
+
+
+.navbar a
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: 'Megrim', cursive;
+	font-variant: small-caps;
+    margin-left: 100px;
+    transition-property: font-size;
+    transition-duration: 0.4s;    
+}
+
+.navbar a:hover
+{
+    font-size: 1.85em;
+}
+
+
+
+/*Mise en place du contenu principal*/ 
+p, ul
+{
+	color: #2d211c;
+}
+
+.logo
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 70px;
+}
+
+section
+{
+	width: 100%;
+	background-image: url(img/darkweb.jpg); 
+	box-shadow: 0px 10px 10px 10px white;
+}
+
+.job, .studies__group
+{	
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 60px;
+	margin: auto;
+	margin-bottom: 10vh;
+	margin-top: 5vh;
+	box-shadow: 0px 10px 10px 10px white;
+}
+
+.jobs__group
+{
+	box-shadow: 0px 10px 10px 10px white;
+}
+
+.job li
+{
+	list-style-type: none ;
+}
+
+.school p
+{
+	font-variant: small-caps;
+	font-size: 1.8rem;
+}
+
+
+/*Mise en place du contenu secondaire*/
+aside
+{
+	margin-top: 100px;
+}
+
+
+.comment
+{
+	background-color: rgba(0, 0, 0);
+	border-radius: 3px;
+}
+
+.comment p
+{
+	color: whitesmoke;
+	padding: 30px;
+	border-radius: 5px; 
+	font-size: 1.7rem;
+}
+
+/*Positionnement des logos*/
+.logo
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 70px;
+}
+
+
+/*Mise en forme bloc de motivation*/
+.motivations__part
+{
+	background-image: url(img/darkweb.jpg); 
+	box-shadow: 0px 10px 10px 10px white;
+}
+
+.motivations_text
+{
+	font-family: 'Megrim', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+	box-shadow: 0px 10px 10px 10px white;
+	background-color: rgba(0, 0, 0, 0.9);
+	text-align: center;
+	line-height: 50px;
+	color: whitesmoke;
+	padding: 40px;
+	margin-top: 100px;
+}
+
+.motivations_portrait
+{
+	display: block;	
+	box-shadow: 5px 5px 5px 5px whitesmoke;
+	border-radius: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4%; 
+}
+
+/*Mise en forme des logos de compétences*/
+.skills__part
+{
+	background-image: url(img/darkweb.jpg);
+	padding-bottom: 10vh;
+	box-shadow: 0px 10px 10px 10px white;	 
+}
+
+.skills_group
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly; 
+}
+
+.skill
+{
+	text-align: center;
+	margin: 20px;
+}
+
+.skills_title
+{
+	font-weight: bold;
+}
+
+/*Disposition des projets*/
+
+.project_img
+{
+	display: block;
+	margin: 5%;
+	box-shadow: 0px 10px 10px 10px white;
+}
+
+.projects__group
+{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.project_img:hover
+{
+	width: 400px;
+	height: 225px;
+}
+
+/*Mise en forme du bloc de loisirs*/
+.hobbies__part
+{
+	background-image: url(img/hobbies2.jpg); 
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 2em;
+	color: white;
+	font-weight: bold;
+	font-family: 'Megrim', cursive;
+	font-variant: small-caps;
+	height: 65vh;
+	box-shadow: 0px 10px 10px 10px white;
+}
+
+.hobbies__groups
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 100px;	
+	color: white;
+	list-style-type: none;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 10px 10px 10px rgba(24, 24, 24, 0.459);
+}
+
+.hobbies__groups li
+{
+	display: block;
+	color: white;
+	list-style-type: none;
+}
+
+/*Mise en forme des liens/logos de contact*/
+.contact__groups
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-top: 100px;	
+	color: white;
+	list-style-type: none;
+}
+
+.contact__bloc img
+{
+	display: block;
+	margin: auto;
+}
+
+
+.contact__bloc
+{
+	text-align: center;
+	margin: 3%;
+	margin-top: 5vh; 
+}
+
+.contact__bloc p
+{
+	color: #413029;
+	font-size: 2rem;
+}
+
+.contact__bloc .capitalized
+{
+	font-family: 'Megrim', cursive;
+	font-variant: small-caps;
+	font-weight: bold;
+	color: black;
+	font-size: 2.5rem;
+}
+
+.contact__groups
+{
+	background: white;
+	box-shadow: 0px 10px 10px 10px white;
+	padding: 5vh;
+}
+
+.contact__groups img:hover
+{
+	width: 100px;
+	height: 100px;
+}
+
+
+/*Mise en place du footer*/
+
+footer
+{
+	background: rgba(0 ,0 ,0);
+	padding: 30px;
+	border-top: 1px solid rgb(36, 36, 36); 
+}
+
+footer, footer p
+{
+	text-align: center;
+	margin-top: 50px;
+	color: whitesmoke;
+}
+
+.copyright
+{
+	font-family: 'Megrim', cursive;
+	font-weight: bold;
+}
+
+/*Gestions des emphases sémantiques*/
+em
+{
+	color: black;
+	font-size: 1.5em;
+	font-family: 'Megrim', cursive;
+	font-weight: bold;
+}
+
+mark
+{
+	background-color: black;
+	color: #ffffff;
+	border-radius: 2px;
+	font-family: 'Megrim', cursive;
+	font-weight: bold;
+}
+
+span
+{
+	font-weight: bold;
+	font-family: 'Megrim', cursive;
+}
+
+
+/*Placement général des listes*/
+li
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*Gestion des sources se logos*/
+.logos_src
+{
+	width: 60%;
+	margin: auto;
+	padding: 10px;
+}
+
+.src a
+{
+	text-decoration: none;
+	color:  rgb(63, 52, 52);
+}
+
+/*Placement des flèches de navigation*/
+
+.arrow-up_link
+{
+	margin-top: 9vh;
+	margin-left: 4.5vh;
+}	
+
+@media screen and (min-width: 800px)
+{
+	.studies__group
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.school
+	{
+		width: 45%;
+	}
+
+	.when-where
+	{
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 990px)
+{
+	h3
+	{
+		margin-top: none;
+	}
+}
+	
+@media screen and (min-width: 1200px)
+{
+	/*Réorganisation des cartes métiers*/
+	.jobs__group
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.job
+	{
+		width: 28%;
+	}
+
+	.middle 
+	{
+		margin-top: 25vh;
+	}
+
+	.down
+	{
+		margin-top: 50vh;
+	}
+
+	/*Réorganisation du groupe études*/
+	.studies__group
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.school
+	{
+		width: 25%;
+	}
+
+	.when-where
+	{
+		text-align: center;
+	}
+
+	.projects__group
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.two
+	{
+		margin-top: 5vh;
+	}
+
+	.three
+	{
+		margin-top: 10vh;
+	}
+
+	.four
+	{
+		margin-top: 15vh;
+	}
+
+	/*Réorganisation du bloc de compétences*/
+	.dos 
+	{
+		margin-top: 10vh ;
+	}
+
+	.tres
+	{
+		margin-top: 15vh;
+	}
+
+	.cuatro
+	{
+		margin-top: 20vh;
+	}
+
+	.cinco
+	{
+		margin-top: 25vh;
+	}
+
+	.seis 
+	{
+		margin-top: 30vh;
+	}
+
+	.siete
+	{
+		margin-top: 35vh;
+	}
+}
