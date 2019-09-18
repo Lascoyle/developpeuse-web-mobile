@@ -147,7 +147,7 @@ body
 /*Définition de la navbar*/
 .navbar
 {
-    position: absolute;
+	position: absolute;
 	width: 100%;
 	background-color: rgb(15, 15, 15);
 }
@@ -484,13 +484,17 @@ li
 	color:  rgb(63, 52, 52);
 }
 
-/*Placement des flèches de navigation*/
+/*Définition de la flèche de navigation*/
 
-.arrow-up_link
-{
-	margin-top: 9vh;
-	margin-left: 4.5vh;
-}	
+#scroll_to_top {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	display: none;
+	background-color: rgba(61, 61, 61, 0.301);
+	padding: 0.2%;
+	border-radius: 3px;
+  }
 
 @media screen and (min-width: 800px)
 {
