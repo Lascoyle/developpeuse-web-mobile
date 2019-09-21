@@ -145,6 +145,20 @@ body
 	box-shadow: 0px 10px 10px 10px rgba(24, 24, 24, 0.459);
 }
 
+.cv_print
+{
+	display: block;
+	position: fixed;
+	margin-left: 94vw; 
+	z-index: 1500;
+}
+
+.cv_print:hover
+{
+	width: 55px;
+	height: 55px;
+}
+
 /*Définition de la navbar*/
 .navbar
 {
@@ -520,10 +534,13 @@ li
 	{
 		text-align: center;
 	}
+
+
 }
 
 @media screen and (min-width: 990px)
 {
+
 	h3
 	{
 		margin-top: none;
