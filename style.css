@@ -126,6 +126,7 @@ body
 {
 	padding-bottom: 20px;
 	background-image: url(img/hands_cpu3.jpg);
+	background-size: center; 
 }
 
 
@@ -187,7 +188,8 @@ p, ul
 section
 {
 	width: 100%;
-	background-image: url(img/darkweb.jpg); 
+	background-image: url(img/darkweb.jpg);
+	background-size: center;  
 	box-shadow: 0px 10px 10px 10px white;
 }
 
@@ -252,6 +254,7 @@ aside
 .motivations__part
 {
 	background-image: url(img/darkweb.jpg); 
+	background-size: center; 
 	box-shadow: 0px 10px 10px 10px white;
 }
 
@@ -283,6 +286,7 @@ aside
 .skills__part
 {
 	background-image: url(img/darkweb.jpg);
+	background-size: center; 
 	padding-bottom: 10vh;
 	box-shadow: 0px 10px 10px 10px white;	 
 }
@@ -331,6 +335,7 @@ aside
 .hobbies__part
 {
 	background-image: url(img/hobbies2.jpg); 
+	background-size: center; 
 	font-weight: bold;
 	font-variant: small-caps;
 	font-size: 2em;
@@ -577,49 +582,49 @@ li
 		justify-content: space-around;
 	}
 
-	.two
+	.position_two
 	{
 		margin-top: 5vh;
 	}
 
-	.three
+	.position_three
 	{
 		margin-top: 10vh;
 	}
 
-	.four
+	.position_four
 	{
 		margin-top: 15vh;
 	}
 
 	/*Réorganisation du bloc de compétences*/
-	.dos 
+	.posicion_dos 
 	{
 		margin-top: 10vh ;
 	}
 
-	.tres
+	.posicion_tres
 	{
-		margin-top: 15vh;
+		margin-top: 5vh;
 	}
 
-	.cuatro
+	.posicion_cuatro
 	{
-		margin-top: 20vh;
+		margin-top: 12vh;
 	}
 
-	.cinco
+	.posicion_cinco
 	{
-		margin-top: 25vh;
+		margin-top: 3vh;
 	}
 
-	.seis 
+	.posicion_seis 
 	{
-		margin-top: 30vh;
+		margin-top: 17vh;
 	}
 
-	.siete
+	.posicion_siete
 	{
-		margin-top: 35vh;
+		margin-top: 8vh;
 	}
 }
